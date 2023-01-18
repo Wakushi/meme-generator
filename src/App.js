@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
-}
+import React from "react"
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 
-export default App;
+export default function App() {
+    return (
+        <div>
+            <Header />
+            <Meme />
+        </div>
+    )
+}
